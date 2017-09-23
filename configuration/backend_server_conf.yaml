@@ -1,0 +1,14 @@
+operations:
+    REDIS_HOST : 'localhost'
+    REDIS_PORT : 6379
+    NEWS_TABLE_NAME : 'news-test'
+    CLICK_LOGS_TABLE_NAME : 'click_logs'
+    NEWS_LIMIT =: 100
+    NEWS_LIST_BATCH_SIZE : 10
+    USER_NEWS_TIME_OUT_IN_SECONDS : 60
+    LOG_CLICKS_TASK_QUEUE_URL : 'amqp://zylpcqxg:s5PL0DqsrTDwjtFym_nVZSW8-CBzVjE0@donkey.rmq.cloudamqp.com/zylpcqxg'
+    LOG_CLICKS_TASK_QUEUE_NAME : 'tap-news-log-clicks-task-queue'  
+
+service:
+    SERVER_HOST : 'localhost'
+    SERVER_PORT : 4040
