@@ -8,4 +8,4 @@ redis
 requests
 sklearn
 watchdog
-yaml
+pyyaml
