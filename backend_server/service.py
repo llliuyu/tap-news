@@ -37,6 +37,14 @@ class RequestHandler(pyjsonrpc.HttpRequestHandler):
                     'user_ip : ' + str(user_ip))
 
         return response
+
+    ''' Get preference for a user '''
+    @pyjsonrpc.rpcmethod
+    def getPreferenceForUser(self, user_id):
+
+        response = operations.getPreferenceForUser(user_id)
+        return response
+
     
     """ Log user news clicks """
     @pyjsonrpc.rpcmethod

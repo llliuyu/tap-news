@@ -19,9 +19,9 @@ classes = [
 ]
 
 def convertToNum():
-    with open('./text.csv', 'r') as f:
+    with open('./training_data/url.csv', 'r') as f:
         lines = f.readlines()
-        with open ('./newtext.csv', 'w') as n:        
+        with open ('./training_data/url1.csv', 'w') as n:        
             for line in lines:  
                 t = line.split(',')
                 for i in range(0, len(classes)):

@@ -11,7 +11,7 @@ var client = jayson.client.http({
 function add(a, b, callback){
     client.request('add', [a, b], function(err, error, response){
         if(err) throw err;
-        console.log(response);
+        
         callback(response);
     });
 }
@@ -19,6 +19,7 @@ function add(a, b, callback){
 function getNewsSummariesForUser(userId, pageNumber, userIp, callback){
     client.request('getNewsSummariesForUser', [userId, pageNumber, userIp],function(err, error, response){
         if(err) throw err;
+
         callback(response);
         
     });
@@ -31,8 +32,17 @@ function logNewsClickForUser(user_id, news_id, user_ip) {
     });
   }
 
+function getPreferenceForUser(user_id, callback) {
+    client.request('getPreferenceForUser',[user_id], function(err, error, response) {
+        if (err) throw err;
+        
+        callback(response);
+    });
+}
+
 module.exports = {
     add : add,
     getNewsSummariesForUser: getNewsSummariesForUser,
-    logNewsClickForUser: logNewsClickForUser
+    logNewsClickForUser: logNewsClickForUser,
+    getPreferenceForUser: getPreferenceForUser
 };

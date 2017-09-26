@@ -13,8 +13,7 @@ learn = tf.contrib.learn
 REMOVE_PREVIOUS_MODEL = True
 
 MODEL_OUTPUT_DIR = '../model/'
-DATA_SET_FILE = '../training_data/aftertrim.csv'
-#DATA_SET_FILE = '../training_data/newtext.csv'
+DATA_SET_FILE = '../training_data/url2.csv'
 VARS_FILE = '../model/vars'
 VOCAB_PROCESSOR_SAVE_FILE = '../model/vocab_procesor_save_file'
 MAX_DOCUMENT_LENGTH = 100
@@ -31,7 +30,8 @@ def main(unused_argv):
 
     # Prepare training and testing data
     df = pd.read_csv(DATA_SET_FILE, header=None)
-    train_df = df[0:1200]
+
+    train_df = df[0:1400]
     test_df = df.drop(train_df.index)
 
     # x - news title, y - class
@@ -42,9 +42,10 @@ def main(unused_argv):
 
     # Process vocabulary
     vocab_processor = learn.preprocessing.VocabularyProcessor(MAX_DOCUMENT_LENGTH)
+    print 'haha'
     x_train = np.array(list(vocab_processor.fit_transform(x_train)))
     x_test = np.array(list(vocab_processor.transform(x_test)))
-
+    
     n_words = len(vocab_processor.vocabulary_)
     print('Total words: %d' % n_words)
 
@@ -60,7 +61,7 @@ def main(unused_argv):
         model_dir=MODEL_OUTPUT_DIR)
 
     # Train and predict
-    classifier.fit(x_train, y_train, steps=STEPS)
+    classifier.fit(x_train, y_train, skiprows=line, steps=STEPS)
 
     # Evaluate model
     y_predicted = [

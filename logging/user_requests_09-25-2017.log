@@ -1,0 +1,18 @@
+Mon 25 Sep 2017 10:42:57, operations.getNewsSummariesForUser, 30 ms, event_name : news_list_request, user_id : llliuyu@gmail.com, user_ip : ::1
+Mon 25 Sep 2017 10:43:08, , event_name : news_request, user_id : llliuyu@gmail.com, user_ip : ::1, news_id : NczmkemlXRy0XcoWZGeD6g==
+
+Mon 25 Sep 2017 10:43:31, operations.getNewsSummariesForUser, 18 ms, event_name : news_list_request, user_id : llliuyu@gmail.com, user_ip : ::1
+Mon 25 Sep 2017 10:43:46, operations.getNewsSummariesForUser, 16 ms, event_name : news_list_request, user_id : llliuyu@gmail.com, user_ip : ::1
+Mon 25 Sep 2017 10:43:58, operations.getNewsSummariesForUser, 28 ms, event_name : news_list_request, user_id : llliuyu@gmail.com, user_ip : ::1
+Mon 25 Sep 2017 10:44:00, operations.getNewsSummariesForUser, 18 ms, event_name : news_list_request, user_id : llliuyu@gmail.com, user_ip : ::1
+Mon 25 Sep 2017 10:44:13, operations.getNewsSummariesForUser, 18 ms, event_name : news_list_request, user_id : llliuyu@gmail.com, user_ip : ::1
+Mon 25 Sep 2017 10:44:16, , event_name : news_request, user_id : llliuyu@gmail.com, user_ip : ::1, news_id : 69TxJ9Y2R+hAdjewh0OBJg==
+
+Mon 25 Sep 2017 10:44:41, operations.getNewsSummariesForUser, 17 ms, event_name : news_list_request, user_id : llliuyu@gmail.com, user_ip : ::1
+Mon 25 Sep 2017 10:44:53, operations.getNewsSummariesForUser, 16 ms, event_name : news_list_request, user_id : llliuyu@gmail.com, user_ip : ::1
+Mon 25 Sep 2017 10:45:08, , event_name : news_request, user_id : llliuyu@gmail.com, user_ip : ::1, news_id : NczmkemlXRy0XcoWZGeD6g==
+
+Mon 25 Sep 2017 10:46:17, , event_name : news_request, user_id : llliuyu@gmail.com, user_ip : ::1, news_id : 69TxJ9Y2R+hAdjewh0OBJg==
+
+Mon 25 Sep 2017 10:47:08, , event_name : news_request, user_id : llliuyu@gmail.com, user_ip : ::1, news_id : NczmkemlXRy0XcoWZGeD6g==
+

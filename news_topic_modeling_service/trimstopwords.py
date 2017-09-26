@@ -3,9 +3,9 @@ from nltk.corpus import stopwords
 
 if __name__ == '__main__':
     stop = set(stopwords.words('english'))
-    with open('./newtext.csv', 'r') as f:
+    with open('./training_data/url1.csv', 'r') as f:
         lines = f.readlines()
-        with open ('./aftertrim.csv', 'w') as n:
+        with open ('./training_data/url2.csv', 'w') as n:
             for line in lines:
                 tmp = ""
                 for i in line.lower().split():

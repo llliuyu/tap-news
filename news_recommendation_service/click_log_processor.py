@@ -49,7 +49,7 @@ def handle_message(msg):
     
     userId = msg['userId']
     newsId = msg['newsId']
-    print 'haha' + userId
+    
     # Update user's preference
     db = mongodb_client.get_db()
     model = db[PREFERENCE_MODEL_TABLE_NAME].find_one({'userId': userId})
@@ -88,7 +88,7 @@ def handle_message(msg):
     for i, prob in model['preference'].iteritems():
         if not i == click_class:
             model['preference'][i] = float((1 - ALPHA) * model['preference'][i])
-
+    print model['preference']
     db[PREFERENCE_MODEL_TABLE_NAME].replace_one({'userId': userId}, model, upsert=True)
 
 

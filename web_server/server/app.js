@@ -8,6 +8,7 @@ var path = require('path');
 var auth = require('./routes/auth');
 var index = require('./routes/index');
 var news = require('./routes/news');
+var preference = require('./routes/preference');
 
 var app = express();
 
@@ -52,6 +53,7 @@ app.use('/auth', auth);
 const authCheckMiddleware = require('./middleware/auth_checker');
 app.use('/news', authCheckMiddleware);
 app.use('/news', news);
+app.use('/preference', preference);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

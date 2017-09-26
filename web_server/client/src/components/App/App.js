@@ -4,7 +4,7 @@ import 'materialize-css/dist/js/materialize.js';
 import React from 'react';
 import logo from './logo.png';
 import NewsPanel from '../../containers/NewsPanel/NewsPanel';
-
+import PreferencePie from '../Piechart/PreferencePie';
 import './App.css';
 
 class App extends React.Component {
@@ -12,8 +12,11 @@ class App extends React.Component {
         return (
             <div>
                 <img className='logo' src={logo} alt='logo' />
-                <div className='container'>
-                    <NewsPanel />
+                <div className='container'>   
+                    <div class="row">
+                        <div class="col s8"><NewsPanel /></div>
+                        <div class="col s4"><PreferencePie /></div>
+                    </div>
                 </div>
             </div>
         );

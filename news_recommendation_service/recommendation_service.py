@@ -25,12 +25,13 @@ class RequestHandler(pyjsonrpc.HttpRequestHandler):
     @pyjsonrpc.rpcmethod
     def getPreferenceForUser(self, user_id):
         db = mongodb_client.get_db()
-        print time.time()
+        
         model = db[PREFERENCE_MODEL_TABLE_NAME].find_one({'userId': user_id})
         if model is None:
             return []
 
         sorted_tuples = sorted(model['preference'].items(), key=operator.itemgetter(1), reverse=True)
+        print sorted_tuples
         sorted_list = [x[0] for x in sorted_tuples]
         sorted_value_list = [x[1] for x in sorted_tuples]
  
@@ -38,8 +39,8 @@ class RequestHandler(pyjsonrpc.HttpRequestHandler):
         # no sense.
         if isclose(float(sorted_value_list[0]), float(sorted_value_list[-1])):
             return []
-
         return sorted_list
+        #return sorted_tuples
 
 
 # Threading HTTP Server

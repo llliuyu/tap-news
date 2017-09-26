@@ -136,3 +136,16 @@ Sun 17 Sep 2017 19:54:38, service.pyoperations.getNewsSummariesForUser, 16 ms, e
 Sun 17 Sep 2017 19:54:40, service.pyoperations.getNewsSummariesForUser, 16 ms, event_name : news_list_request, user_id : gg@qq.com, user_ip : ::1
 Sun 17 Sep 2017 19:54:42, service.pyoperations.getNewsSummariesForUser, 14 ms, event_name : news_list_request, user_id : gg@qq.com, user_ip : ::1
 Sun 17 Sep 2017 19:54:44, service.pyoperations.getNewsSummariesForUser, 19 ms, event_name : news_list_request, user_id : gg@qq.com, user_ip : ::1
+Sat 23 Sep 2017 13:10:15, operations.py, event_name : news_request, user_id : qq@qq.com, user_ip : ::1, news_id : gF8acXIiZOL98S6qpBOBxw==
+
+Sat 23 Sep 2017 13:10:27, service.pyoperations.getNewsSummariesForUser, 50 ms, event_name : news_list_request, user_id : qq@qq.com, user_ip : ::1
+Sat 23 Sep 2017 13:10:30, service.pyoperations.getNewsSummariesForUser, 15 ms, event_name : news_list_request, user_id : qq@qq.com, user_ip : ::1
+Sat 23 Sep 2017 13:10:32, service.pyoperations.getNewsSummariesForUser, 16 ms, event_name : news_list_request, user_id : qq@qq.com, user_ip : ::1
+Sat 23 Sep 2017 13:10:38, service.pyoperations.getNewsSummariesForUser, 18 ms, event_name : news_list_request, user_id : qq@qq.com, user_ip : ::1
+Sat 23 Sep 2017 13:11:19, service.pyoperations.getNewsSummariesForUser, 15 ms, event_name : news_list_request, user_id : qq@qq.com, user_ip : ::1
+Sat 23 Sep 2017 13:12:00, service.pyoperations.getNewsSummariesForUser, 43 ms, event_name : news_list_request, user_id : qq@qq.com, user_ip : ::1
+Sat 23 Sep 2017 13:15:25, operations.py, event_name : news_request, user_id : qq@qq.com, user_ip : ::1, news_id : lJLtCceI90bwjjHUcoLiqw==
+
+Sat 23 Sep 2017 13:16:45, service.pyoperations.getNewsSummariesForUser, 43 ms, event_name : news_list_request, user_id : tt@qq.com, user_ip : ::1
+Sat 23 Sep 2017 13:17:57, service.pyoperations.getNewsSummariesForUser, 44 ms, event_name : news_list_request, user_id : tt@qq.com, user_ip : ::1
+Sat 23 Sep 2017 13:18:03, service.pyoperations.getNewsSummariesForUser, 14 ms, event_name : news_list_request, user_id : tt@qq.com, user_ip : ::1

@@ -1,4 +1,4 @@
-import { UPDATE_USER, SET_ERRORS } from '../../actions/login_actions/login_actions';
+import { SET_ERRORS } from '../../actions/login_actions/login_actions';
 
 const initialState = {
             errors: {},
@@ -13,7 +13,9 @@ export default (state = initialState, action) => {
 		case SET_ERRORS:
 			return Object.assign({}, state, {
                       errors: action.data
-                  }); 
+                  });
+    default: 
+      return state;
 	}
-	return state;
+	
 }

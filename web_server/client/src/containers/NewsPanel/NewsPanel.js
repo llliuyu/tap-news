@@ -56,31 +56,31 @@ class NewsPanel extends React.Component {
     console.log(this.props.news);
     return this.props.news.map((news_item) => {
       return(
-        <a className='list-group-item' href="#">
-            <div className="news-container" onClick={() => this.redirectToUrl(news_item)}>
+        <a className='list-group-item' href="#" id='left'>
+            <div className="news-container" onClick={(event) => { event.preventDefault(); this.redirectToUrl(news_item);}}>
                 <div className='row'>
-                <div className='col s4 fill'>
-                    <img src={news_item.urlToImage} alt='news'/>
-                </div>
-                <div className="col s8">
-                    <div className="news-intro-col">
-                    <div className="news-intro-panel">
-                        <h4>{news_item.title}</h4>
-                        <div className="news-description">
-                        <p>{news_item.description}</p>
-                        <div>
-                            {news_item.source != null && <div className='chip light-blue news-chip'>{news_item.source}</div>}
-                            {news_item.reason != null && <div className='chip light-green news-chip'>{news_item.reason}</div>}
-                            {news_item.time != null && <div className='chip amber news-chip'>{news_item.time}</div>}
-                        </div>
+                    <div className='col s4 fill'>
+                        <img src={news_item.urlToImage} alt='news'/>
+                    </div>
+                    <div className="col s8">
+                        <div className="news-intro-col">
+                            <div className="news-intro-panel">
+                                <h4>{news_item.title}</h4>
+                                <div className="news-description">
+                                <p>{news_item.description}</p>
+                                    <div>
+                                        {news_item.source != null && <div className='chip light-blue news-chip'>{news_item.source}</div>}
+                                        {news_item.reason != null && <div className='chip light-green news-chip'>{news_item.reason}</div>}
+                                        {news_item.time != null && <div className='chip amber news-chip'>{news_item.time}</div>}
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    </div>
-                </div>
                 </div>
             </div>
-
         </a>
+
       );
     });
 
