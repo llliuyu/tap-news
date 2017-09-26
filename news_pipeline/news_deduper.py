@@ -8,8 +8,8 @@ from dateutil import parser
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 # import common package in parent directory
-sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'common')) 
- 
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'common'))
+
 import mongodb_client
 import news_topic_modeling_service_client
 from cloudAMQP_client import CloudAMQPClient
@@ -20,7 +20,7 @@ with open('../configuration/news_pipeline_conf.yaml', 'r') as stream:
     except yaml.YAMLError as exc:
         print(exc)
 
-cloudAMQP_client = CloudAMQPClient(config['news_deduper']['DEDUPE_NEWS_TASK_QUEUE_URL'], 
+cloudAMQP_client = CloudAMQPClient(config['news_deduper']['DEDUPE_NEWS_TASK_QUEUE_URL'],
                                    config['news_deduper']['DEDUPE_NEWS_TASK_QUEUE_NAME'])
 
 def handle_message(msg):
@@ -30,7 +30,7 @@ def handle_message(msg):
     text = task['text']
     if text is None:
         return
-    
+
     ''' get news from database with similar time '''
     published_at = parser.parse(task['publishedAt'])
     published_at_day_begin = datetime.datetime(published_at.year, published_at.month, published_at.day, 0, 0, 0, 0)
@@ -58,7 +58,7 @@ def handle_message(msg):
                 return
 
     task['publishedAt'] = parser.parse(task['publishedAt'])
-   
+
     # classify news
     description = task['description']
     source = task['source']
@@ -67,7 +67,7 @@ def handle_message(msg):
         task['class'] = 'Sports'
     elif source == 'entertainment-weekly' or source == 'mtv-news':
         task['class'] = 'Entertainment'
-    elif source == 'techcrunch' or 't3n' or source == 'recode' or source == 'techradar' or source == 'new-scientist':
+    elif source == 'techcrunch' or source == 't3n' or source == 'recode' or source == 'techradar' or source == 'new-scientist':
         task['class'] = 'Technology'
     elif source == 'the-lad-bible':
         task['class'] = 'Religion'
@@ -77,7 +77,7 @@ def handle_message(msg):
         task['class'] = 'Magazine'
     elif source == 'ign':
         task['class'] = 'Media'
-    else description is not None:
+    elif description is not None:
         topic = news_topic_modeling_service_client.classify(description)
         task['class'] = topic
 
@@ -90,7 +90,7 @@ def handle_message(msg):
                 filename='../logging/news_pipeline.log',
                 filemode='a')
     logging.info(', ' +
-                 'event_name : ' + 'news_dedupe' + ', ' + 
+                 'event_name : ' + 'news_dedupe' + ', ' +
                  'queue_name : ' + str(config['news_deduper']['DEDUPE_NEWS_TASK_QUEUE_NAME']) + ', ' +
                  'news_id : ' + str(task['digest']))
 
