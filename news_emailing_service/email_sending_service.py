@@ -12,14 +12,13 @@ EMAIL_PUSHING_THRESHOLD = 0.35
 
 NEWS_TABLE_NAME = 'news-test'
 PREFERENCE_MODEL_TABLE_NAME = 'user_preference_model'
-		
+
 
 def pushingNews(user_id, user_preference):
 	news = list(db[NEWS_TABLE_NAME].find({'class':user_preference}).sort([('publishedAt', -1)]).limit(NEWS_LIMIT))
 
 	to = user_id
 	subject = 'News you might like'
-	img = '/home/yuyu/Downloads/tap-news.pem'
 	html_front = '''\
 				<html>
    				 	<style> .title{font-weight:bold;font-size:18px;} </style>
@@ -36,29 +35,24 @@ def pushingNews(user_id, user_preference):
 		news_url = item['url']
 		news_urlToImage = item['urlToImage']
 		html_mid += '''
-            
-			<a className='list-group-item' href='''+news_url+'''>           
+
+			<a className='list-group-item' href='''+news_url+'''>
                 <div className='row'>
                     <div className='col s4 fill' style="float:left;">
                         <img src='''+news_urlToImage+''' alt='news' style="width="300px" height="200px"/>
                     </div>
                     <div className="col s8" style=" float:left;style="width="800px" height="200px"">
-                        <div className="news-intro-col">
-                            <div className="news-intro-panel">
-                                <h1>'''+news_title+'''</h1>
-                                <div className="news-description">
-                                <p>'''+news_description+'''</p>
-                                </div>
-                            </div>
+                        <h1>'''+news_title+'''</h1>
+                        <div className="news-description">
+                        <p><h2>'''+news_description+'''<h2></p>
                         </div>
                     </div>
-                    <div style="clear:both"></div>
                 </div>
             </a>
 		'''
 	html = html_front + html_mid + html_end
 	# print html
-	yag.send(to = to, subject = subject, contents = [html,img])
+	yag.send(to = to, subject = subject, contents = [html])
 
 
 if __name__ == '__main__':
@@ -74,7 +68,7 @@ if __name__ == '__main__':
 		user_id = ''
 		num = 0
 		for c,v in preference.items():
-			
+
 			if v > EMAIL_PUSHING_THRESHOLD:
 				num += 1
 				user_id = item['userId']
