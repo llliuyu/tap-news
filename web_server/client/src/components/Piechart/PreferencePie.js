@@ -107,7 +107,7 @@ export default class PreferencePie extends Component {
   };
 
   loadPreference() {
-    let url = 'http://localhost:3000/preference/userId/' + Auth.getEmail()
+    let url = 'http://18.221.76.85:3000/preference/userId/' + Auth.getEmail()
 
     let request = new Request(encodeURI(url), {
       method: 'GET',

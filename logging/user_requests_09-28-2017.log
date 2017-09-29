@@ -1,0 +1,1115 @@
+Thu 28 Sep 2017 09:31:10, operations.getNewsSummariesForUser, 36 ms, event_name : news_list_request, user_id : llliuyu@gmail.com, user_ip : ::ffff:68.4.66.17
+Thu 28 Sep 2017 09:31:20, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:31:32, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:31:37, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:31:43, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:31:47, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:31:48, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:32:08, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:32:12, operations.getNewsSummariesForUser, 8 ms, event_name : news_list_request, user_id : llliuyu@gmail.com, user_ip : ::ffff:68.4.66.17
+Thu 28 Sep 2017 09:32:28, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:32:31, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:32:41, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:33:00, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:36:44, operations.getNewsSummariesForUser, 8 ms, event_name : news_list_request, user_id : llliuyu@gmail.com, user_ip : ::ffff:68.4.66.17
+Thu 28 Sep 2017 09:36:50, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:37:02, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:37:19, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:37:49, operations.getNewsSummariesForUser, 8 ms, event_name : news_list_request, user_id : llliuyu@gmail.com, user_ip : ::ffff:68.4.66.17
+Thu 28 Sep 2017 09:37:54, Read empty data, calling disconnect
+Thu 28 Sep 2017 09:37:54, Disconnected from RabbitMQ at donkey.rmq.cloudamqp.com:5672 (-1): EOF
+Thu 28 Sep 2017 09:37:54, Connection close detected; result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED socket=None params=<URLParameters host=donkey.rmq.cloudamqp.com port=5672 virtual_host=zylpcqxg ssl=False>>, reason_code=-1, reason_text='EOF')
+Thu 28 Sep 2017 09:37:54, JsonRpcError(-32603): (-1, 'EOF') -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 52, in logNewsClickForUser
+    return operations.logNewsClickForUser(user_id, news_id, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 140, in logNewsClickForUser
+    cloudAMQP_client.sendMessage(message)
+  File "/home/ubuntu/tap-news/backend_server/../common/cloudAMQP_client.py", line 22, in sendMessage
+    body=json.dumps(message))
+  File "/usr/local/lib/python2.7/dist-packages/pika/adapters/blocking_connection.py", line 2053, in basic_publish
+    mandatory, immediate)
+  File "/usr/local/lib/python2.7/dist-packages/pika/adapters/blocking_connection.py", line 2140, in publish
+    self._flush_output()
+  File "/usr/local/lib/python2.7/dist-packages/pika/adapters/blocking_connection.py", line 1251, in _flush_output
+    *waiters)
+  File "/usr/local/lib/python2.7/dist-packages/pika/adapters/blocking_connection.py", line 474, in _flush_output
+    result.reason_text)
+ConnectionClosed: (-1, 'EOF')
+
+Thu 28 Sep 2017 09:38:03, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:38:17, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:39:34, operations.getNewsSummariesForUser, 8 ms, event_name : news_list_request, user_id : llliuyu@gmail.com, user_ip : ::ffff:68.4.66.17
+Thu 28 Sep 2017 09:39:41, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:39:43, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:39:44, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:39:46, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:39:47, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:39:48, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:39:52, JsonRpcError(-32603): Internal JSON-RPC error. -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 52, in logNewsClickForUser
+    return operations.logNewsClickForUser(user_id, news_id, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 140, in logNewsClickForUser
+    cloudAMQP_client.sendMessage(message)
+  File "/home/ubuntu/tap-news/backend_server/../common/cloudAMQP_client.py", line 22, in sendMessage
+    body=json.dumps(message))
+  File "/usr/local/lib/python2.7/dist-packages/pika/adapters/blocking_connection.py", line 2053, in basic_publish
+    mandatory, immediate)
+  File "/usr/local/lib/python2.7/dist-packages/pika/adapters/blocking_connection.py", line 2139, in publish
+    immediate=immediate)
+  File "/usr/local/lib/python2.7/dist-packages/pika/channel.py", line 415, in basic_publish
+    raise exceptions.ChannelClosed()
+ChannelClosed
+
+Thu 28 Sep 2017 09:39:54, JsonRpcError(-32603): Internal JSON-RPC error. -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 52, in logNewsClickForUser
+    return operations.logNewsClickForUser(user_id, news_id, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 140, in logNewsClickForUser
+    cloudAMQP_client.sendMessage(message)
+  File "/home/ubuntu/tap-news/backend_server/../common/cloudAMQP_client.py", line 22, in sendMessage
+    body=json.dumps(message))
+  File "/usr/local/lib/python2.7/dist-packages/pika/adapters/blocking_connection.py", line 2053, in basic_publish
+    mandatory, immediate)
+  File "/usr/local/lib/python2.7/dist-packages/pika/adapters/blocking_connection.py", line 2139, in publish
+    immediate=immediate)
+  File "/usr/local/lib/python2.7/dist-packages/pika/channel.py", line 415, in basic_publish
+    raise exceptions.ChannelClosed()
+ChannelClosed
+
+Thu 28 Sep 2017 09:39:58, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:40:01, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:40:03, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:40:10, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:40:11, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:40:13, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:40:15, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:40:19, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:40:21, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:40:23, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:40:41, operations.getNewsSummariesForUser, 8 ms, event_name : news_list_request, user_id : llliuyu@gmail.com, user_ip : ::ffff:68.4.66.17
+Thu 28 Sep 2017 09:40:51, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:40:52, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:41:05, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:41:29, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:41:31, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:46:06, operations.getNewsSummariesForUser, 8 ms, event_name : news_list_request, user_id : llliuyu@gmail.com, user_ip : ::ffff:68.4.66.17
+Thu 28 Sep 2017 09:46:11, JsonRpcError(-32603): Internal JSON-RPC error. -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 52, in logNewsClickForUser
+    return operations.logNewsClickForUser(user_id, news_id, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 140, in logNewsClickForUser
+    cloudAMQP_client.sendMessage(message)
+  File "/home/ubuntu/tap-news/backend_server/../common/cloudAMQP_client.py", line 22, in sendMessage
+    body=json.dumps(message))
+  File "/usr/local/lib/python2.7/dist-packages/pika/adapters/blocking_connection.py", line 2053, in basic_publish
+    mandatory, immediate)
+  File "/usr/local/lib/python2.7/dist-packages/pika/adapters/blocking_connection.py", line 2139, in publish
+    immediate=immediate)
+  File "/usr/local/lib/python2.7/dist-packages/pika/channel.py", line 415, in basic_publish
+    raise exceptions.ChannelClosed()
+ChannelClosed
+
+Thu 28 Sep 2017 09:46:29, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:46:34, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:46:37, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:47:39, operations.getNewsSummariesForUser, 8 ms, event_name : news_list_request, user_id : llliuyu@gmail.com, user_ip : ::ffff:68.4.66.17
+Thu 28 Sep 2017 09:47:47, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:47:50, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:47:54, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:53:19, operations.getNewsSummariesForUser, 8 ms, event_name : news_list_request, user_id : llliuyu@gmail.com, user_ip : ::ffff:68.4.66.17
+Thu 28 Sep 2017 09:53:28, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:53:49, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:53:54, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:53:58, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:54:01, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:54:06, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:54:10, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:54:36, operations.getNewsSummariesForUser, 14 ms, event_name : news_list_request, user_id : llliuyu@gmail.com, user_ip : ::ffff:68.4.66.17
+Thu 28 Sep 2017 09:54:45, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:54:48, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:54:59, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:55:03, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:55:06, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:55:07, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:55:11, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:55:12, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:55:14, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:55:16, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:55:22, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:55:23, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:55:28, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:55:31, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:55:34, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:55:36, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:55:39, operations.getNewsSummariesForUser, 8 ms, event_name : news_list_request, user_id : llliuyu@gmail.com, user_ip : ::ffff:68.4.66.17
+Thu 28 Sep 2017 09:55:58, JsonRpcError(-32603): Internal JSON-RPC error. -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 52, in logNewsClickForUser
+    return operations.logNewsClickForUser(user_id, news_id, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 140, in logNewsClickForUser
+    cloudAMQP_client.sendMessage(message)
+  File "/home/ubuntu/tap-news/backend_server/../common/cloudAMQP_client.py", line 22, in sendMessage
+    body=json.dumps(message))
+  File "/usr/local/lib/python2.7/dist-packages/pika/adapters/blocking_connection.py", line 2053, in basic_publish
+    mandatory, immediate)
+  File "/usr/local/lib/python2.7/dist-packages/pika/adapters/blocking_connection.py", line 2139, in publish
+    immediate=immediate)
+  File "/usr/local/lib/python2.7/dist-packages/pika/channel.py", line 415, in basic_publish
+    raise exceptions.ChannelClosed()
+ChannelClosed
+
+Thu 28 Sep 2017 09:56:05, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:56:07, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:56:10, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:56:19, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:56:26, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:56:39, operations.getNewsSummariesForUser, 8 ms, event_name : news_list_request, user_id : llliuyu@gmail.com, user_ip : ::ffff:68.4.66.17
+Thu 28 Sep 2017 09:56:52, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 09:56:53, JsonRpcError(-32603): list index out of range -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 61, in getNewsSummariesForUser
+    news_digests = sortNews(news_class_digests, preference)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 123, in sortNews
+    if item[0] == preference[0]:
+IndexError: list index out of range
+
+Thu 28 Sep 2017 23:33:32, operations.getNewsSummariesForUser, 14 ms, event_name : news_list_request, user_id : llliuyu@gmail.com, user_ip : ::ffff:68.4.66.17
+Thu 28 Sep 2017 23:33:39, JsonRpcError(-32603): global name 'sliced_news_digestsi' is not defined -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 69, in getNewsSummariesForUser
+    sliced_news_digests_without_class = map(lambda x: x[1], sliced_news_digestsi)
+NameError: global name 'sliced_news_digestsi' is not defined
+
+Thu 28 Sep 2017 23:33:48, JsonRpcError(-32603): global name 'sliced_news_digestsi' is not defined -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 69, in getNewsSummariesForUser
+    sliced_news_digests_without_class = map(lambda x: x[1], sliced_news_digestsi)
+NameError: global name 'sliced_news_digestsi' is not defined
+
+Thu 28 Sep 2017 23:33:50, JsonRpcError(-32603): global name 'sliced_news_digestsi' is not defined -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 23, in getNewsSummariesForUser
+    response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 69, in getNewsSummariesForUser
+    sliced_news_digests_without_class = map(lambda x: x[1], sliced_news_digestsi)
+NameError: global name 'sliced_news_digestsi' is not defined
+
+Thu 28 Sep 2017 23:39:25, operations.getNewsSummariesForUser, 6 ms, event_name : news_list_request, user_id : llliuyu@gmail.com, user_ip : ::ffff:68.4.66.17
+Thu 28 Sep 2017 23:39:27, operations.getNewsSummariesForUser, 9 ms, event_name : news_list_request, user_id : llliuyu@gmail.com, user_ip : ::ffff:68.4.66.17
+Thu 28 Sep 2017 23:39:31, operations.getNewsSummariesForUser, 6 ms, event_name : news_list_request, user_id : llliuyu@gmail.com, user_ip : ::ffff:68.4.66.17
+Thu 28 Sep 2017 23:39:35, operations.getNewsSummariesForUser, 6 ms, event_name : news_list_request, user_id : llliuyu@gmail.com, user_ip : ::ffff:68.4.66.17
+Thu 28 Sep 2017 23:39:38, operations.getNewsSummariesForUser, 6 ms, event_name : news_list_request, user_id : llliuyu@gmail.com, user_ip : ::ffff:68.4.66.17
+Thu 28 Sep 2017 23:40:30, , event_name : news_request, user_id : llliuyu@gmail.com, user_ip : ::ffff:68.4.66.17, news_id : 7rjqSXmtFTIBZdSq0AJK5g==
+
+Thu 28 Sep 2017 23:42:30, , event_name : news_request, user_id : llliuyu@gmail.com, user_ip : ::ffff:68.4.66.17, news_id : 7rjqSXmtFTIBZdSq0AJK5g==
+
+Thu 28 Sep 2017 23:45:38, operations.getNewsSummariesForUser, 17 ms, event_name : news_list_request, user_id : llliuyu@gmail.com, user_ip : ::ffff:68.4.66.17
+Thu 28 Sep 2017 23:46:50, operations.getNewsSummariesForUser, 8 ms, event_name : news_list_request, user_id : llliuyu@gmail.com, user_ip : ::ffff:68.4.66.17
+Thu 28 Sep 2017 23:47:05, operations.getNewsSummariesForUser, 7 ms, event_name : news_list_request, user_id : llliuyu@gmail.com, user_ip : ::ffff:68.4.66.17
+Thu 28 Sep 2017 23:47:20, operations.getNewsSummariesForUser, 7 ms, event_name : news_list_request, user_id : llliuyu@gmail.com, user_ip : ::ffff:68.4.66.17
+Thu 28 Sep 2017 23:47:38, Read empty data, calling disconnect
+Thu 28 Sep 2017 23:47:38, Disconnected from RabbitMQ at donkey.rmq.cloudamqp.com:5672 (-1): EOF
+Thu 28 Sep 2017 23:47:38, Connection close detected; result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED socket=None params=<URLParameters host=donkey.rmq.cloudamqp.com port=5672 virtual_host=zylpcqxg ssl=False>>, reason_code=-1, reason_text='EOF')
+Thu 28 Sep 2017 23:47:38, JsonRpcError(-32603): (-1, 'EOF') -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 52, in logNewsClickForUser
+    return operations.logNewsClickForUser(user_id, news_id, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 146, in logNewsClickForUser
+    cloudAMQP_client.sendMessage(message)
+  File "/home/ubuntu/tap-news/backend_server/../common/cloudAMQP_client.py", line 22, in sendMessage
+    body=json.dumps(message))
+  File "/usr/local/lib/python2.7/dist-packages/pika/adapters/blocking_connection.py", line 2053, in basic_publish
+    mandatory, immediate)
+  File "/usr/local/lib/python2.7/dist-packages/pika/adapters/blocking_connection.py", line 2140, in publish
+    self._flush_output()
+  File "/usr/local/lib/python2.7/dist-packages/pika/adapters/blocking_connection.py", line 1251, in _flush_output
+    *waiters)
+  File "/usr/local/lib/python2.7/dist-packages/pika/adapters/blocking_connection.py", line 474, in _flush_output
+    result.reason_text)
+ConnectionClosed: (-1, 'EOF')
+
+Thu 28 Sep 2017 23:47:50, JsonRpcError(-32603): Internal JSON-RPC error. -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 52, in logNewsClickForUser
+    return operations.logNewsClickForUser(user_id, news_id, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 146, in logNewsClickForUser
+    cloudAMQP_client.sendMessage(message)
+  File "/home/ubuntu/tap-news/backend_server/../common/cloudAMQP_client.py", line 22, in sendMessage
+    body=json.dumps(message))
+  File "/usr/local/lib/python2.7/dist-packages/pika/adapters/blocking_connection.py", line 2053, in basic_publish
+    mandatory, immediate)
+  File "/usr/local/lib/python2.7/dist-packages/pika/adapters/blocking_connection.py", line 2139, in publish
+    immediate=immediate)
+  File "/usr/local/lib/python2.7/dist-packages/pika/channel.py", line 415, in basic_publish
+    raise exceptions.ChannelClosed()
+ChannelClosed
+
+Thu 28 Sep 2017 23:47:51, operations.getNewsSummariesForUser, 10 ms, event_name : news_list_request, user_id : llliuyu@gmail.com, user_ip : ::ffff:68.4.66.17
+Thu 28 Sep 2017 23:47:58, operations.getNewsSummariesForUser, 11 ms, event_name : news_list_request, user_id : llliuyu@gmail.com, user_ip : ::ffff:68.4.66.17
+Thu 28 Sep 2017 23:48:07, JsonRpcError(-32603): Internal JSON-RPC error. -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 52, in logNewsClickForUser
+    return operations.logNewsClickForUser(user_id, news_id, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 146, in logNewsClickForUser
+    cloudAMQP_client.sendMessage(message)
+  File "/home/ubuntu/tap-news/backend_server/../common/cloudAMQP_client.py", line 22, in sendMessage
+    body=json.dumps(message))
+  File "/usr/local/lib/python2.7/dist-packages/pika/adapters/blocking_connection.py", line 2053, in basic_publish
+    mandatory, immediate)
+  File "/usr/local/lib/python2.7/dist-packages/pika/adapters/blocking_connection.py", line 2139, in publish
+    immediate=immediate)
+  File "/usr/local/lib/python2.7/dist-packages/pika/channel.py", line 415, in basic_publish
+    raise exceptions.ChannelClosed()
+ChannelClosed
+
+Thu 28 Sep 2017 23:48:12, operations.getNewsSummariesForUser, 7 ms, event_name : news_list_request, user_id : llliuyu@gmail.com, user_ip : ::ffff:68.4.66.17
+Thu 28 Sep 2017 23:48:14, JsonRpcError(-32603): Internal JSON-RPC error. -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 52, in logNewsClickForUser
+    return operations.logNewsClickForUser(user_id, news_id, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 146, in logNewsClickForUser
+    cloudAMQP_client.sendMessage(message)
+  File "/home/ubuntu/tap-news/backend_server/../common/cloudAMQP_client.py", line 22, in sendMessage
+    body=json.dumps(message))
+  File "/usr/local/lib/python2.7/dist-packages/pika/adapters/blocking_connection.py", line 2053, in basic_publish
+    mandatory, immediate)
+  File "/usr/local/lib/python2.7/dist-packages/pika/adapters/blocking_connection.py", line 2139, in publish
+    immediate=immediate)
+  File "/usr/local/lib/python2.7/dist-packages/pika/channel.py", line 415, in basic_publish
+    raise exceptions.ChannelClosed()
+ChannelClosed
+
+Thu 28 Sep 2017 23:48:21, JsonRpcError(-32603): Internal JSON-RPC error. -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 52, in logNewsClickForUser
+    return operations.logNewsClickForUser(user_id, news_id, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 146, in logNewsClickForUser
+    cloudAMQP_client.sendMessage(message)
+  File "/home/ubuntu/tap-news/backend_server/../common/cloudAMQP_client.py", line 22, in sendMessage
+    body=json.dumps(message))
+  File "/usr/local/lib/python2.7/dist-packages/pika/adapters/blocking_connection.py", line 2053, in basic_publish
+    mandatory, immediate)
+  File "/usr/local/lib/python2.7/dist-packages/pika/adapters/blocking_connection.py", line 2139, in publish
+    immediate=immediate)
+  File "/usr/local/lib/python2.7/dist-packages/pika/channel.py", line 415, in basic_publish
+    raise exceptions.ChannelClosed()
+ChannelClosed
+
+Thu 28 Sep 2017 23:48:28, operations.getNewsSummariesForUser, 7 ms, event_name : news_list_request, user_id : llliuyu@gmail.com, user_ip : ::ffff:68.4.66.17
+Thu 28 Sep 2017 23:48:30, JsonRpcError(-32603): Internal JSON-RPC error. -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 52, in logNewsClickForUser
+    return operations.logNewsClickForUser(user_id, news_id, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 146, in logNewsClickForUser
+    cloudAMQP_client.sendMessage(message)
+  File "/home/ubuntu/tap-news/backend_server/../common/cloudAMQP_client.py", line 22, in sendMessage
+    body=json.dumps(message))
+  File "/usr/local/lib/python2.7/dist-packages/pika/adapters/blocking_connection.py", line 2053, in basic_publish
+    mandatory, immediate)
+  File "/usr/local/lib/python2.7/dist-packages/pika/adapters/blocking_connection.py", line 2139, in publish
+    immediate=immediate)
+  File "/usr/local/lib/python2.7/dist-packages/pika/channel.py", line 415, in basic_publish
+    raise exceptions.ChannelClosed()
+ChannelClosed
+
+Thu 28 Sep 2017 23:49:35, operations.getNewsSummariesForUser, 8 ms, event_name : news_list_request, user_id : llliuyu@gmail.com, user_ip : ::ffff:68.4.66.17
+Thu 28 Sep 2017 23:49:43, operations.getNewsSummariesForUser, 13 ms, event_name : news_list_request, user_id : llliuyu@gmail.com, user_ip : ::ffff:68.4.66.17
+Thu 28 Sep 2017 23:50:12, JsonRpcError(-32603): Internal JSON-RPC error. -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 52, in logNewsClickForUser
+    return operations.logNewsClickForUser(user_id, news_id, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 146, in logNewsClickForUser
+    cloudAMQP_client.sendMessage(message)
+  File "/home/ubuntu/tap-news/backend_server/../common/cloudAMQP_client.py", line 22, in sendMessage
+    body=json.dumps(message))
+  File "/usr/local/lib/python2.7/dist-packages/pika/adapters/blocking_connection.py", line 2053, in basic_publish
+    mandatory, immediate)
+  File "/usr/local/lib/python2.7/dist-packages/pika/adapters/blocking_connection.py", line 2139, in publish
+    immediate=immediate)
+  File "/usr/local/lib/python2.7/dist-packages/pika/channel.py", line 415, in basic_publish
+    raise exceptions.ChannelClosed()
+ChannelClosed
+
+Thu 28 Sep 2017 23:52:12, JsonRpcError(-32603): Internal JSON-RPC error. -- Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pyjsonrpc/rpclib.py", line 114, in call
+    result = rpc_function(*positional_params, **named_params)
+  File "service.py", line 52, in logNewsClickForUser
+    return operations.logNewsClickForUser(user_id, news_id, user_ip)
+  File "/home/ubuntu/tap-news/backend_server/operations.py", line 146, in logNewsClickForUser
+    cloudAMQP_client.sendMessage(message)
+  File "/home/ubuntu/tap-news/backend_server/../common/cloudAMQP_client.py", line 22, in sendMessage
+    body=json.dumps(message))
+  File "/usr/local/lib/python2.7/dist-packages/pika/adapters/blocking_connection.py", line 2053, in basic_publish
+    mandatory, immediate)
+  File "/usr/local/lib/python2.7/dist-packages/pika/adapters/blocking_connection.py", line 2139, in publish
+    immediate=immediate)
+  File "/usr/local/lib/python2.7/dist-packages/pika/channel.py", line 415, in basic_publish
+    raise exceptions.ChannelClosed()
+ChannelClosed
+
+Thu 28 Sep 2017 23:54:38, operations.getNewsSummariesForUser, 11 ms, event_name : news_list_request, user_id : llliuyu@gmail.com, user_ip : ::ffff:68.4.66.17
+Thu 28 Sep 2017 23:54:52, operations.getNewsSummariesForUser, 7 ms, event_name : news_list_request, user_id : llliuyu@gmail.com, user_ip : ::ffff:68.4.66.17
+Thu 28 Sep 2017 23:55:07, , event_name : news_request, user_id : llliuyu@gmail.com, user_ip : ::ffff:68.4.66.17, news_id : 0Cxt3hIqC6kiiOEPwfT2AQ==
+
+Thu 28 Sep 2017 23:55:16, , event_name : news_request, user_id : llliuyu@gmail.com, user_ip : ::ffff:68.4.66.17, news_id : x8mOKBWj2nuSHTeRQn3bNw==
+
+Thu 28 Sep 2017 23:55:30, operations.getNewsSummariesForUser, 7 ms, event_name : news_list_request, user_id : llliuyu@gmail.com, user_ip : ::ffff:68.4.66.17
+Thu 28 Sep 2017 23:56:10, operations.getNewsSummariesForUser, 13 ms, event_name : news_list_request, user_id : llliuyu@gmail.com, user_ip : ::ffff:68.4.66.17
+Thu 28 Sep 2017 23:56:15, , event_name : news_request, user_id : llliuyu@gmail.com, user_ip : ::ffff:68.4.66.17, news_id : kHqTiCxy1GrxCwbCHh9b9w==
+
+Thu 28 Sep 2017 23:56:23, , event_name : news_request, user_id : llliuyu@gmail.com, user_ip : ::ffff:68.4.66.17, news_id : HmnW13bjl4O17mKWy6vEFA==
+
+Thu 28 Sep 2017 23:56:32, operations.getNewsSummariesForUser, 7 ms, event_name : news_list_request, user_id : llliuyu@gmail.com, user_ip : ::ffff:68.4.66.17
+Thu 28 Sep 2017 23:56:44, , event_name : news_request, user_id : llliuyu@gmail.com, user_ip : ::ffff:68.4.66.17, news_id : C8d+Hiop2rgmHjL1PuYJ8w==
+
+Thu 28 Sep 2017 23:56:51, operations.getNewsSummariesForUser, 9 ms, event_name : news_list_request, user_id : llliuyu@gmail.com, user_ip : ::ffff:68.4.66.17
+Thu 28 Sep 2017 23:57:05, , event_name : news_request, user_id : llliuyu@gmail.com, user_ip : ::ffff:68.4.66.17, news_id : fd2VUxqN0xFrbIlldn1FlQ==
+
+Thu 28 Sep 2017 23:57:11, , event_name : news_request, user_id : llliuyu@gmail.com, user_ip : ::ffff:68.4.66.17, news_id : aMTFeF7JgVnbQieMxyUP6w==
+
+Thu 28 Sep 2017 23:57:20, operations.getNewsSummariesForUser, 9 ms, event_name : news_list_request, user_id : llliuyu@gmail.com, user_ip : ::ffff:68.4.66.17
+Fri 29 Sep 2017 00:14:27, operations.getNewsSummariesForUser, 9 ms, event_name : news_list_request, user_id : llliuyu@gmail.com, user_ip : ::ffff:68.4.66.17

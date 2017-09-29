@@ -10,7 +10,7 @@ export function loadMoreNews(news, pageNum, loadedAll) {
 	      return
 	    }
 
-	    let url = 'http://localhost:3000/news/userId/' + Auth.getEmail()
+	    let url = 'http://18.221.76.85:3000/news/userId/' + Auth.getEmail()
 	              + '/pageNum/' + pageNum
 
 	    let request = new Request(encodeURI(url), {

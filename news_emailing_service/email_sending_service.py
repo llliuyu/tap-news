@@ -23,7 +23,7 @@ def pushingNews(user_id, user_preference):
 				<html>
    				 	<style> .title{font-weight:bold;font-size:18px;} </style>
     				<body>
-    					<img className='logo' src="https://image.ibb.co/kxwzzQ/logo.png" alt='logo' />'''
+    					<a href="http://18.221.76.85:3000/"><img className='logo' src="https://image.ibb.co/kxwzzQ/logo.png" alt='logo' /></a>'''
 	html_end = '''
 					</body>
 				</html> '''

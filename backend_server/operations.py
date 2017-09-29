@@ -57,18 +57,24 @@ def getNewsSummariesForUser(user_id, page_num, user_ip):
     if redis_client.get(user_id) is not None:
         # news_digests = pickle.loads(redis_client.get(user_id))
         news_class_digests = pickle.loads(redis_client.get(user_id))
+	
+	if preference:
+            news_digests = sortNews(news_class_digests, preference)
+            sliced_news_digests = news_digests[begin_index:end_index]
+            db = mongodb_client.get_db()
+            sliced_news = list(db[NEWS_TABLE_NAME].find({'digest': {'$in': sliced_news_digests}}))
+        else:
+            news_digests = news_class_digests
+            sliced_news_digests = news_digests[begin_index:end_index]
+            sliced_news_digests_without_class = map(lambda x: x[1], sliced_news_digests)
+            db = mongodb_client.get_db()
+            sliced_news = list(db[NEWS_TABLE_NAME].find({'digest': {'$in': sliced_news_digests_without_class}}))
 
-        news_digests = sortNews(news_class_digests, preference)
         # If begin_index is out of range, this will return empty list;
         # If end_index is out of range (begin_index is within the range), this
         # will return all remaining news ids.
-
-        sliced_news_digests = news_digests[begin_index:end_index]
         
         print 'redis_client.get(user_id) is not None'
-        
-        db = mongodb_client.get_db()
-        sliced_news = list(db[NEWS_TABLE_NAME].find({'digest': {'$in': sliced_news_digests}}))
     else:
         db = mongodb_client.get_db()
         total_news = list(db[NEWS_TABLE_NAME].find().sort([('publishedAt', -1)]).limit(NEWS_LIMIT))
@@ -137,7 +143,10 @@ def logNewsClickForUser(user_id, news_id, user_ip):
 
     # Send log task to machine learning service for prediction
     message = {'userId': user_id, 'newsId': news_id, 'timestamp': str(datetime.utcnow())}
-    cloudAMQP_client.sendMessage(message)
+    if cloudAMQP_client:
+	cloudAMQP_client.sendMessage(message)
+    else:
+	print 'cloudAMQP_client is null'
 
     logging.basicConfig(level=logging.INFO,
                 format='%(asctime)s %(filename)s%(message)s',

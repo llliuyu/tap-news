@@ -8,7 +8,7 @@ export function processForm(user, context) {
         const email = user.email;
         const password = user.password;
 
-        fetch('http://localhost:3000/auth/login', {
+        fetch('http://18.221.76.85:3000/auth/login', {
             method: 'POST',
             cache: false,
             headers: {
