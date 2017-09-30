@@ -23,7 +23,7 @@ class RequestHandler(pyjsonrpc.HttpRequestHandler):
         response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
         endtime = datetime.datetime.now()
         diff = int((endtime - starttime).microseconds/1000)
-        print 'This is a new change from service.py'
+        print 'This is a change from service.py'
         logging.basicConfig(level=logging.INFO,
                 format='%(asctime)s %(message)s',
                 datefmt='%a %d %b %Y %H:%M:%S' + ',',
