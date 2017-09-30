@@ -1,6 +1,7 @@
 import Base from './components/Base/Base';
 import App from './components/App/App';
 import LoginForm from './containers/Login/LoginForm';
+import Profile from './components/Profile/Profile';
 import SignUpPage from './components/SignUp/SignUpPage';
 import Auth from './common/Auth';
 
@@ -17,7 +18,16 @@ const routes = {
         }
       }
     },
-
+    {
+      path: '/profile',
+      getComponent: (location, callback) => {
+        if (Auth.isUserAuthenticated()) {
+          callback(null, Profile);
+        } else {
+          callback(null, LoginForm);
+        }
+      }
+    },   
     {
       path: '/login',
       component: LoginForm

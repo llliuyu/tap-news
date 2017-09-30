@@ -14,7 +14,6 @@ class App extends React.Component {
                 <img className='logo' src={logo} alt='logo' />
                 <div className='container'>   
                     <div class="row">
-			<div class="col s4"><PreferencePie /></div>
                         <div class="col s8"><NewsPanel /></div>
                     </div>
                 </div>
