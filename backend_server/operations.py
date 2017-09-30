@@ -122,10 +122,7 @@ def getPreferenceForUser(user_id):
 def sortNews(news_class_digests, preference):
     prefer = []
     rest = []
-    num = 0
     for item in news_class_digests:
-        num = num + 1
-        print num
         if item[0] == preference[0]:
             prefer.append(item[1])
         else:
@@ -144,7 +141,7 @@ def logNewsClickForUser(user_id, news_id, user_ip):
     # Send log task to machine learning service for prediction
     message = {'userId': user_id, 'newsId': news_id, 'timestamp': str(datetime.utcnow())}
     if cloudAMQP_client:
-	cloudAMQP_client.sendMessage(message)
+	   cloudAMQP_client.sendMessage(message)
     else:
 	print 'cloudAMQP_client is null'
 

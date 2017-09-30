@@ -16,3 +16,23 @@ Fri 29 Sep 2017 16:40:58, news_fecher.py, event_name : get_news_text_from_source
 
 Fri 29 Sep 2017 16:41:04, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : SCt25Ll7UF246lGZdrt1qw==
 
+Fri 29 Sep 2017 18:09:01, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : lCaIHtTm20L91/zf8yKskw==
+
+Fri 29 Sep 2017 18:09:07, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : tGGnygrZMxVJOa7MQZIILg==
+
+Fri 29 Sep 2017 18:09:12, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : K0B9rtgnimnX/irPZeg1Mg==
+
+Fri 29 Sep 2017 18:09:18, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : 7XfZcb6jTl2tFx2Kf/9VcQ==
+
+Fri 29 Sep 2017 18:09:24, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : wDXCgrzGDbwUvGezZWl1VA==
+
+Fri 29 Sep 2017 18:09:29, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : Kbo5KTnLII3XbyAIQmFmbg==
+
+Fri 29 Sep 2017 18:09:35, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : 5sJ04HAPtJYbDxnEvOwYnw==
+
+Fri 29 Sep 2017 18:09:36, news_deduper.py, event_name : news_dedupe, queue_name : tap-news-dedupe-news-task-queue, news_id : 5sJ04HAPtJYbDxnEvOwYnw==
+
+Fri 29 Sep 2017 18:09:41, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : lJXuCj10ZDYlyNkx9Ao3JA==
+
+Fri 29 Sep 2017 18:09:41, news_deduper.py, event_name : news_dedupe, queue_name : tap-news-dedupe-news-task-queue, news_id : lJXuCj10ZDYlyNkx9Ao3JA==
+
