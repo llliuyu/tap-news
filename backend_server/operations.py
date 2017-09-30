@@ -109,7 +109,7 @@ def getPreferenceForUser(user_id):
 
     sorted_tuples = sorted(model['preference'].items(), key=operator.itemgetter(1), reverse=True)
 
-    print sorted_tuples
+    #print sorted_tuples
     #sorted_list = [x[0] for x in sorted_tuples]
     #sorted_value_list = [x[1] for x in sorted_tuples]
 
@@ -140,10 +140,13 @@ def logNewsClickForUser(user_id, news_id, user_ip):
 
     # Send log task to machine learning service for prediction
     message = {'userId': user_id, 'newsId': news_id, 'timestamp': str(datetime.utcnow())}
+    print message
     if cloudAMQP_client:
-	   cloudAMQP_client.sendMessage(message)
+        print 'pre-send'
+        cloudAMQP_client.sendMessage(message)
+        print 'send to tap-news-log-clicks-task-queue'
     else:
-	print 'cloudAMQP_client is null'
+        print 'cloudAMQP_client is null'
 
     logging.basicConfig(level=logging.INFO,
                 format='%(asctime)s %(filename)s%(message)s',

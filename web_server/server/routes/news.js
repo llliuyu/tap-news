@@ -23,6 +23,7 @@ router.post('/userId/:userId/newsId/:newsId', function(req, res, next) {
   news_id = req.params['newsId']
 
   rpc_client.logNewsClickForUser(user_id, news_id, user_ip);
+  console.log('Logging after rpc');
   res.status(200);
 });
 
