@@ -92,20 +92,17 @@ def handle_message(msg):
     db[PREFERENCE_MODEL_TABLE_NAME].replace_one({'userId': userId}, model, upsert=True)
 
 
-def run():
-    while True:
-        if cloudAMQP_client is not None:
-            msg = cloudAMQP_client.getMessage()
-            if msg is not None:
-                # Parse and process the task
-                try:
-                    handle_message(msg)
-                except Exception as e:
-                    print e
-                    pass
-            # Remove this if this becomes a bottleneck.
-            cloudAMQP_client.sleep(SLEEP_TIME_IN_SECONDS)
 
+while True:
+    if cloudAMQP_client is not None:
+        msg = cloudAMQP_client.getMessage()
+        if msg is not None:
+            # Parse and process the task
+            try:
+                handle_message(msg)
+            except Exception as e:
+                print e
+                pass
+        # Remove this if this becomes a bottleneck.
+        #cloudAMQP_client.sleep(SLEEP_TIME_IN_SECONDS)
 
-if __name__ == '__main__':
-    run()

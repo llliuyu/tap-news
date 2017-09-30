@@ -36,3 +36,7 @@ Fri 29 Sep 2017 18:09:41, news_fecher.py, event_name : get_news_text_from_source
 
 Fri 29 Sep 2017 18:09:41, news_deduper.py, event_name : news_dedupe, queue_name : tap-news-dedupe-news-task-queue, news_id : lJXuCj10ZDYlyNkx9Ao3JA==
 
+Fri 29 Sep 2017 18:29:29, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : VC2vr9BUrYyZbQ67W5bs/Q==
+
+Fri 29 Sep 2017 18:29:29, news_deduper.py, event_name : news_dedupe, queue_name : tap-news-dedupe-news-task-queue, news_id : VC2vr9BUrYyZbQ67W5bs/Q==
+
