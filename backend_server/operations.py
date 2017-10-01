@@ -52,13 +52,12 @@ def getNewsSummariesForUser(user_id, page_num, user_ip):
     if preference is not None and len(preference) > 0:
         topPreference = preference[0]
 
-    print topPreference
 
     if redis_client.get(user_id) is not None:
         # news_digests = pickle.loads(redis_client.get(user_id))
         news_class_digests = pickle.loads(redis_client.get(user_id))
-	
-	if preference:
+
+        if preference:
             news_digests = sortNews(news_class_digests, preference)
             sliced_news_digests = news_digests[begin_index:end_index]
             db = mongodb_client.get_db()
@@ -73,7 +72,7 @@ def getNewsSummariesForUser(user_id, page_num, user_ip):
         # If begin_index is out of range, this will return empty list;
         # If end_index is out of range (begin_index is within the range), this
         # will return all remaining news ids.
-        
+
         print 'redis_client.get(user_id) is not None'
     else:
         db = mongodb_client.get_db()
@@ -97,6 +96,8 @@ def getNewsSummariesForUser(user_id, page_num, user_ip):
             news['reason'] = 'Recommend'
         if news['publishedAt'].date() == datetime.today().date():
             news['time'] = 'today'
+        else:
+            news['time'] = str(news['publishedAt'].date())
 
     return json.loads(dumps(sliced_news))
 
@@ -109,7 +110,7 @@ def getPreferenceForUser(user_id):
 
     sorted_tuples = sorted(model['preference'].items(), key=operator.itemgetter(1), reverse=True)
 
-    #print sorted_tuples
+    print sorted_tuples
     #sorted_list = [x[0] for x in sorted_tuples]
     #sorted_value_list = [x[1] for x in sorted_tuples]
 
@@ -122,7 +123,10 @@ def getPreferenceForUser(user_id):
 def sortNews(news_class_digests, preference):
     prefer = []
     rest = []
+    num = 0
     for item in news_class_digests:
+        num = num + 1
+        
         if item[0] == preference[0]:
             prefer.append(item[1])
         else:
@@ -140,13 +144,15 @@ def logNewsClickForUser(user_id, news_id, user_ip):
 
     # Send log task to machine learning service for prediction
     message = {'userId': user_id, 'newsId': news_id, 'timestamp': str(datetime.utcnow())}
+    
     print message
+    print 'logNewsClickForUser'
     if cloudAMQP_client:
         print 'pre-send'
         cloudAMQP_client.sendMessage(message)
         print 'send to tap-news-log-clicks-task-queue'
     else:
-        print 'cloudAMQP_client is null'
+        print 'cloudamqp is null'
 
     logging.basicConfig(level=logging.INFO,
                 format='%(asctime)s %(filename)s%(message)s',
