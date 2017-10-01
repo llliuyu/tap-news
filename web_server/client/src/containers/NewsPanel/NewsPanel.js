@@ -39,7 +39,7 @@ class NewsPanel extends React.Component {
     }
 
   sendClickLog(news_item) {
-      let url = 'http://18.221.76.85:3000/news/userId/' + Auth.getEmail()
+      let url = 'http://18.221.159.116:3000/news/userId/' + Auth.getEmail()
                   + '/newsId/' + news_item.digest;
 
       let request = new Request(encodeURI(url), {

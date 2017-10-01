@@ -34,7 +34,7 @@ class SignUpPage extends React.Component {
         }
 
         //todo
-        fetch('http://localhost:3000/auth/signup', {
+        fetch('http://18.221.159.116:3000/auth/signup', {
             method: 'POST',
             cache: false,
             headers: {
