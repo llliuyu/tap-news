@@ -80,7 +80,7 @@ def getNewsSummariesForUser(user_id, page_num, user_ip):
 
         # total_news_digests = map(lambda x: x['digest'], total_news)
         total_news_class_digests = map(lambda x: [x.get('class'),x['digest']], total_news)
-        print 'redis_client.get(user_id) is None'
+        
         # redis_client.set(user_id, pickle.dumps(total_news_digests))
         redis_client.set(user_id, pickle.dumps(total_news_class_digests))
         redis_client.expire(user_id, USER_NEWS_TIME_OUT_IN_SECONDS)
