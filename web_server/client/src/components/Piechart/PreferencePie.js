@@ -10,17 +10,6 @@ import _ from 'lodash';
 import './PreferencePie.css';
 const colors = scaleOrdinal(schemeCategory10).range();
 
-const data02 = [
-  { name: 'Group A', value: 2400 },
-  { name: 'Group B', value: 4567 },
-  { name: 'Group C', value: 1398 },
-  { name: 'Group D', value: 9800 },
-  { name: 'Group E', value: 3908 },
-  { name: 'Group F', value: 4800 },
-];
-
-
-
 const renderLabelContent = (props) => {
   const { value, percent, x, y, midAngle } = props;
 
@@ -131,10 +120,7 @@ export default class PreferencePie extends Component {
     for(let item of preference) {
       newPreference.push({name: item[0], value: item[1]});
     }
-    console.log(newPreference);
     this.setState({preference: newPreference});
-    console.log(data02)
-    console.log(this.state.preference)
   }
 
   render () {
@@ -178,6 +164,9 @@ export default class PreferencePie extends Component {
                       </Label>
                     </Pie>
                   </PieChart>
+                </div>
+                <div className="video-container">
+                    <iframe src="http://18.221.159.116:5601/app/kibana#/dashboard/AV7aV-P4mPuZ5KCkgXTC?embed=true&_g=(refreshInterval%3A('%24%24hashKey'%3A'object%3A492'%2Cdisplay%3A'5%20seconds'%2Cpause%3A!f%2Csection%3A1%2Cvalue%3A5000)%2Ctime%3A(from%3Anow-30m%2Cmode%3Aquick%2Cto%3Anow))" height="600" width="800"></iframe>
                 </div>
               </div>
 
