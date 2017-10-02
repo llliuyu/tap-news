@@ -23,18 +23,23 @@ class RequestHandler(pyjsonrpc.HttpRequestHandler):
         response = operations.getNewsSummariesForUser(user_id, page_num, user_ip)
         endtime = datetime.datetime.now()
         diff = int((endtime - starttime).microseconds/1000)
-        print 'This is a change from service.py'
+
+
+        tmp = user_ip.split(':')
+        ipv4 = tmp[-1]
+
         logging.basicConfig(level=logging.INFO,
-                format='%(asctime)s %(message)s',
+                format='%(asctime)s %(ip)s %(message)s',
                 datefmt='%a %d %b %Y %H:%M:%S' + ',',
                 filename='../logging/user_requests_' + time.strftime('%m-%d-%Y', time.localtime()) +'.log',
                 filemode='a')
+        d = {'ip': ipv4}
         logging.info(
                     'operations.getNewsSummariesForUser' + ', ' +
                     str(diff) + ' ms, ' +
                     'event_name : ' + 'news_list_request' + ', ' + 
                     'user_id : ' + str(user_id) + ', ' +
-                    'user_ip : ' + str(user_ip))
+                    'user_ip : ' + str(ipv4), extra = d)
 
         return response
 
