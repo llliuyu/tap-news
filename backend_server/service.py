@@ -29,17 +29,17 @@ class RequestHandler(pyjsonrpc.HttpRequestHandler):
         ipv4 = tmp[-1]
 
         logging.basicConfig(level=logging.INFO,
-                format='%(asctime)s %(ip)s %(message)s',
+                format='%(asctime)s %(message)s',
                 datefmt='%a %d %b %Y %H:%M:%S' + ',',
                 filename='../logging/user_requests_' + time.strftime('%m-%d-%Y', time.localtime()) +'.log',
                 filemode='a')
-        d = {'ip': ipv4}
+        
         logging.info(
                     'operations.getNewsSummariesForUser' + ', ' +
                     str(diff) + ' ms, ' +
                     'event_name : ' + 'news_list_request' + ', ' + 
                     'user_id : ' + str(user_id) + ', ' +
-                    'user_ip : ' + str(ipv4), extra = d)
+                    'user_ip : ' + str(ipv4))
 
         return response
 
