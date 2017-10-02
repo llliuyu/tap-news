@@ -155,7 +155,7 @@ def logNewsClickForUser(user_id, news_id, user_ip):
         print 'cloudamqp is null'
 
     tmp = user_ip.split(':')
-        ipv4 = tmp[-1]
+    ipv4 = tmp[-1]
 
     logging.basicConfig(level=logging.INFO,
                 format='%(asctime)s %(ip)s %(filename)s%(message)s',
